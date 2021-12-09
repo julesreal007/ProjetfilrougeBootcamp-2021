@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>fil rouge</title>
+    <link rel="stylesheet" href="style/formFilRouge.css">
+</head>
+<body>
+    <h1>BIENVENUE SUR LE FORMULAIRE D'INSCRIPTION</h1>
+    <h3>Veuilez saisir et nous envoyer vos informations</h3>
+   <form action="" method="post">
+       <fieldset><legend>Formulaire d'inscription</legend>
+       <ul>
+           <li>
+               <label for="prenom">Prénom</label>
+               <input type="text" name="prenom" id="">
+           </li>
+           <li>
+               <label for="nom">Nom</label>
+               <input type="text" name="nom" id="">
+           </li>
+           <li>
+               <label for="age">Votre date de naissance</label>
+               <input type="date" name="date" id="">
+           </li>
+           <li>
+             <label for="genre">Genre</label>
+               <select name="genre" id="">
+                   <option value="">Veuillez saisir votre genre</option>
+                   <option value="Homme">Homme</option>
+                   <option value="Femme">Femme</option>
+               </select>
+           </li>
+           <li>
+               <label for="email">Email</label>
+               <input type="email" name="email" id="" pattern=".+@gmail.com" required placeholder="exemple_1@gmail.com">
+           </li>
+           <li>
+           <label for="tel">Téléphone</label>
+           <input type="tel" name="telephone" id="">
+        </li>
+ 
+       <h3>Filière choisie</h3>
+       <input type="checkbox" name="réseaux" id="">Réseaux Télécoms
+       <input type="checkbox" name="gestion" id="">gestion
+       <input type="checkbox" name="compta" id="">Comptabilité
+       <input type="checkbox" name="developpement" id="">Développement web
+       <input type="checkbox" name="rh" id="">RH
+   
+    <li>
+    <input type="file" name="fichier" id="" accept="fichier.doc, fichier.pdf">
+</li>
+<li>
+    <input type="submit" name="valider" value="Envoyer">
+</li>
+</ul>
+</fieldset>
+   </form> 
+
+</body>
+</html>

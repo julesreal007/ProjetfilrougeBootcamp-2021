@@ -1,0 +1,32 @@
+body {
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+   
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    font-style: oblique;
+    color: yellow;
+}
+nav ul li a:hover {
+    font-size: 25px;
+}
+
+.container {
+    background-color: orchid;
+    border: 2px solid slategray;
+    padding: 15px;
+    border-radius: 10px;
+}
+h1 {
+    color: rgb(138, 21, 0);
+}
+h2::first-letter {
+    font-style: italic;
+    font-size: xx-large;
+    color: springgreen;
+}
